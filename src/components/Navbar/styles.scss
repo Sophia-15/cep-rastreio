@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 3rem 5%;
+  background: #202020;
+
+  .logo img {
+    height: 4.5rem;
+  }
+
+  .pages {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    li {
+      color: #e0e0e0;
+      font-size: 1.8rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}

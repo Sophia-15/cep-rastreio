@@ -1,0 +1,27 @@
+main {
+  .tracking-input {
+    margin: 4rem 5%;
+  }
+
+  .tracking-container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #202020;
+    margin: 2rem 5%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    .tracking-info {
+      display: flex;
+      flex-direction: column;
+      padding-right: 5rem;
+      gap: 2rem;
+      font-size: 1.4rem;
+    }
+
+    .tracking-status {
+      font-size: 1.8rem;
+    }
+  }
+}

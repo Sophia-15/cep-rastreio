@@ -1,0 +1,41 @@
+.cep-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10% 0 5%;
+
+  #illustration img {
+    height: 45rem;
+  }
+
+  #cep-info {
+    ul {
+      margin-top: 2rem;
+      background: #202020;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      color: #fff;
+      list-style: none;
+      font-size: 1.4rem;
+      width: 42rem;
+      word-break: break-all;
+
+      li {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1040px) {
+  .cep-main {
+    flex-direction: column;
+    justify-content: center;
+
+    #illustration img {
+      height: 34rem;
+    }
+  }
+}

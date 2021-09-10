@@ -1,0 +1,57 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .text-input {
+    position: relative;
+
+    input {
+      background: #202020;
+      border: 0.1rem solid #e89e64;
+      outline: none;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      width: 35rem;
+      color: #fff;
+    }
+
+    label {
+      position: absolute;
+      top: -1.8rem;
+      left: 2%;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    span {
+      position: absolute;
+      bottom: 0.3rem;
+      left: 2rem;
+      font-size: 1.4rem;
+      transition: all 0.3s ease;
+      color: #fff;
+    }
+
+    input:focus + label span,
+    input:valid + label span {
+      transform: translate(-2.5rem, -4rem);
+      font-size: 1.2rem;
+    }
+  }
+
+  .submit-text {
+    background: #e89e64;
+    border: none;
+    padding: 2.1rem 1.1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
+}
