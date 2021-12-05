@@ -26,7 +26,7 @@ Esse projeto foi feito no desafio 05 do servidor Codelândia, no discord. Com o 
 
 - Clone o repositório
 - Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+- Inicie o servidor com `yarn dev `
 
 A aplicação pode ser acessada em [`localhost:3333`](http://localhost:3333).
 
