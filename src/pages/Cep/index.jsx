@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import endereco from '../../assets/img/endereco.svg';
 import Input from '../../components/Input';
-import './styles.scss';
+import './styles.scss'; 
 
 function Cep() {
   const [cep, setCep] = useState('');
